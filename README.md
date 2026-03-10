@@ -69,11 +69,6 @@ classDiagram
     CampoController --> Finestra : aggiorna
     Main ..> CampoController : inizializza
 ```
-Certamente! Includere un **Diagramma delle Sequenze** nel README è un'ottima idea, poiché mostra come gli oggetti interagiscono tra loro nel tempo (il "flusso" del programma), completando la visione statica del diagramma delle classi.
-
-Ecco la sezione da aggiungere al tuo file `README.md`.
-
----
 
 ## 🔄 Flusso di Esecuzione (Diagramma delle Sequenze)
 
@@ -123,17 +118,6 @@ sequenceDiagram
 
 ---
 
-### Suggerimento per il README
-Puoi inserire questo blocco subito dopo il "Diagramma delle Classi" per dare una spiegazione completa dell'architettura. 
-
-Se vuoi personalizzare i nomi dei metodi per farli corrispondere esattamente al tuo codice Java, ecco la mappatura che ho usato nel diagramma:
-*   `clickSinistro(r, c)` -> Metodo nel Controller chiamato dal Listener.
-*   `scopri(r, c)` -> Metodo nel Model che cambia lo stato della matrice.
-*   `mostraNumero(r, c, valore)` -> Metodo nella View che cambia il testo/icona del JButton.## 🚀 Come Eseguire il Progetto
-1. **Prerequisiti:** Assicurati di avere installato il Java Development Kit (JDK) versione 8 o superiore.
-2. **Clona il repository:**
-   ```bash
-   git clone https://github.com/tuo-username/prato-fiorito-mvc.git
    ```
 3. **Compila il progetto:**
    ```bash
